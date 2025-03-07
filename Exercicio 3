@@ -1,0 +1,45 @@
+#1
+
+numero = int(input("Digite um número inteiro positivo: "))
+for i in range(1, numero + 1):
+    print(i)
+
+
+#2
+
+soma = 0
+while True:
+    num = float(input("Digite um número (negativo para sair): "))
+    if num < 0:
+        break
+    soma += num
+print(f"A soma dos números positivos digitados é: {soma}")
+
+
+#3
+
+num_tabuada = int(input("Digite um número inteiro para ver a tabuada: "))
+for i in range(1, 11):
+    print(f"{num_tabuada} x {i} = {num_tabuada * i}")
+
+
+#4
+
+a = int(input("Digite o primeiro número do intervalo: "))
+b = int(input("Digite o segundo número do intervalo: "))
+
+print("Números ímpares no intervalo:")
+for i in range(a, b + 1):
+    if i % 2 != 0:
+        print(i)
+
+
+#5
+
+n = int(input("Digite quantos termos da sequência de Fibonacci deseja ver: "))
+fib1, fib2 = 0, 1
+print("Sequência de Fibonacci:")
+for _ in range(n):
+    print(fib1, end=" ")
+    fib1, fib2 = fib2, fib1 + fib2
+print()
