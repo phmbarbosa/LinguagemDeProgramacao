@@ -1,1 +1,38 @@
-ctu y j uf k hj cu
+#1
+
+import math
+raio = float(input("Digite o valor do raio do círculo: "))
+area = math.pi * (raio ** 2)
+print(f"A área do círculo é: {area:.2f}")
+
+
+#2
+
+celsius = float(input("Digite a temperatura em graus Celsius: "))
+fahrenheit = (celsius * 9/5) + 32
+print(f"A temperatura em Fahrenheit é: {fahrenheit:.2f}")
+
+
+#3
+
+a = float(input("Digite o primeiro número: "))
+b = float(input("Digite o segundo número: "))
+c = float(input("Digite o terceiro número: "))
+media = (a + b + c) / 3
+print(f"A média aritmética dos números é: {media:.2f}")
+
+
+#4
+
+horas_trabalhadas = float(input("Digite o número de horas trabalhadas no mês: "))
+valor_por_hora = float(input("Digite o valor recebido por hora: "))
+
+salario_total = horas_trabalhadas * valor_por_hora
+print(f"O salário total do mês é: R$ {salario_total:.2f}")
+
+
+#5
+
+metros = float(input("Digite o valor em metros: "))
+centimetros = metros * 100
+print(f"O valor em centímetros é: {centimetros:.2f} cm")
